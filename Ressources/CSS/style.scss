@@ -1,0 +1,481 @@
+// RESET CSS
+// ===============================================================
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+// ===============================================================
+
+$bleuClair: #2eb612;
+$gris: #3b5466;
+
+// GLOBAL
+// =============================================================== 
+
+body {
+    font-family: 'Overpass', sans-serif;
+    color: $gris;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 6rem;
+}
+
+h2 {
+    color: $bleuClair;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.trait {
+    display: inline-block;
+    border-bottom: 2px solid $bleuClair;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+// HEADER
+// ===============================================================
+
+header {
+    .top {
+        width: 100%;
+    }
+
+    .colorTop {
+        background-color: white;
+    }
+
+    p {
+        font-size: 9pt;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-bottom: 0px;
+    }
+
+    i {
+        color: $bleuClair;
+        height: 10px;
+    }
+
+    .tel {
+        text-align: right;
+    }
+}
+
+// NAV
+// ===============================================================
+.barreNav {
+    background-color: $gris;
+}
+
+.businessNav {
+    color: $bleuClair !important;
+}
+
+.navColor {
+    color: white !important;
+}
+
+.navColor:hover {
+    color: $bleuClair !important;
+}
+
+.navColor:active {
+    color: $bleuClair !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+// HOME
+// ===============================================================
+
+.home {
+    background-image: url(../images/matrix-2953869_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+    .textTitr {
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
+
+    .btnContact {
+        background-color: $bleuClair;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .btnContact:hover {
+        transition: 1s;
+        background-color: white;
+        border: none;
+        color: $bleuClair;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+}
+
+// ABOUT US
+// ===============================================================
+
+.textAboutUs {
+    padding-top: 20px;
+}
+
+.colmd {
+    padding: 0px;
+}
+
+.imgAboutUs {
+    background-image: url(../images/skull-and-crossbones-1518822_640.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    p {
+        margin: 0px;
+        font-size: 40vh;
+        font-weight: bolder;
+        text-align: center;
+        color: rgba($bleuClair, 0.5);
+    }
+}
+
+.lien {
+    color: $bleuClair !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.lien:hover {
+    color: $gris !important;
+}
+
+// PAGE
+// ===============================================================
+
+.page {
+    background-color: rgba($bleuClair, 0.5);
+    margin: 0px;
+    width: 100%;
+
+    .center {
+        text-align: center;
+
+        i {
+            color: $bleuClair;
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .pad {
+        padding: 0px !important;
+    }
+}
+
+// STATS
+// ===============================================================
+
+.stats {
+    background-image: url(../images/matrix-1799661_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0px;
+
+    h2 {
+        color: white;
+        margin-top: 20px;
+    }
+}
+
+// NEWS
+// ===============================================================
+
+#news {
+    h2 {
+        margin-top: 20px;
+    }
+
+    img {
+        width: 250px;
+        border: 1px solid $bleuClair;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px 10px $bleuClair;
+    }
+
+    .picto {
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+// AVIS
+// ===============================================================
+
+.avis {
+    background-color: rgba($bleuClair, 0.5);
+    margin: 0px;
+
+    h2 {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    i {
+        color: $bleuClair;
+    }
+
+    .ital {
+        color: $gris;
+        font-style: italic;
+    }
+
+    p {
+        padding: 0 10px 0 10px;
+    }
+}
+
+// FOOTER
+// ===============================================================
+
+footer {
+    background-image: url(../images/sillouette-702178_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    p {
+        color: white;
+        font-size: 1rem;
+        padding: 0 10px 0 10px;
+    }
+
+    .titreFooter {
+        margin-top: 20px;
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+
+    .trait {
+        display: inline-block;
+        border-bottom: 1px solid $bleuClair;
+        width: 96%;
+        margin-bottom: 10px;
+    }
+
+    .trait2 {
+        display: inline-block;
+        border-bottom: 1px solid $bleuClair;
+        width: 50px;
+    }
+
+    .trait3 {
+        display: inline-block;
+        border-bottom: 1px solid $bleuClair;
+        width: 100%;
+    }
+
+    i {
+        color: $bleuClair;
+        padding-left: 5px;
+
+    }
+
+    input {
+        border: none;
+        padding: 6px;
+
+    }
+
+    .btnEnvoye {
+        background-color: $bleuClair;
+        border: none;
+        color: white;
+        padding: 4px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .btnEnvoye:hover {
+        transition: 1s;
+        background-color: white;
+        border: none;
+        color: $bleuClair;
+        padding: 4px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .blog {
+        margin-top: 20px;
+    }
+
+    .insta {
+        padding: 0px !important;
+        margin: 0px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .imageKR {
+        width: 100% !important;
+    }
+
+    .copyright {
+        font-size: 75%;
+        text-align: center;
+    }
+}
+
+// MEDIA SCREEN 1200
+// ===============================================================
+
+
+@media screen and (max-width: 1200px) {
+    #slider {
+        display: none;
+    }
+
+    header {
+        p {
+            font-size: 7pt;
+        }
+    }
+
+}
+
+// MEDIA SCREEN 991
+// ===============================================================
+
+
+@media screen and (max-width: 991px) {
+    #slider {
+        display: none;
+    }
+
+    #footer {
+        padding: 0px 10px 0px 10px;
+ 
+        .image {
+            width: 150px;
+        }
+
+        .imageKR {
+            width: 100px;
+        }
+
+        .KR {
+            width: 302px;
+        }
+    }
+}
+
+
+// MEDIA SCREEN 896
+// ===============================================================
+
+
+@media screen and (max-width: 896px) {
+    #slider {
+        display: none;
+    }
+
+    #news {
+
+        img {
+            width: 100%;
+
+        }
+    }
+}
+
+// MEDIA SCREEN 767
+// ===============================================================
+
+@media screen and (max-width: 767px) {
+    #slider {
+        display: none;
+    }
+
+    header {
+        .tel {
+            text-align: left;
+        }
+
+        .colorTop {
+            padding: 0px 10px 0px 10px;
+        }
+    }
+
+    #news {
+        text-align: center;
+
+        img {
+            width: 250px;
+        }
+    }
+
+
+    .textAboutUs {
+        padding-left: 10px;
+    }
+
+    .page {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .avis {
+        padding: 0px 10px 0px 10px;
+
+        img {
+            width: 150px;
+        }
+    }
+}

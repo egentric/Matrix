@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  color: #3b5466;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 6rem;
+}
+
+h2 {
+  color: #2eb612;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.trait {
+  display: inline-block;
+  border-bottom: 2px solid #2eb612;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+header .top {
+  width: 100%;
+}
+header .colorTop {
+  background-color: white;
+}
+header p {
+  font-size: 9pt;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 0px;
+}
+header i {
+  color: #2eb612;
+  height: 10px;
+}
+header .tel {
+  text-align: right;
+}
+
+.barreNav {
+  background-color: #3b5466;
+}
+
+.businessNav {
+  color: #2eb612 !important;
+}
+
+.navColor {
+  color: white !important;
+}
+
+.navColor:hover {
+  color: #2eb612 !important;
+}
+
+.navColor:active {
+  color: #2eb612 !important;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.home {
+  background-image: url(../images/matrix-2953869_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.home .textTitr {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+.home .btnContact {
+  background-color: #2eb612;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.home .btnContact:hover {
+  transition: 1s;
+  background-color: white;
+  border: none;
+  color: #2eb612;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.textAboutUs {
+  padding-top: 20px;
+}
+
+.colmd {
+  padding: 0px;
+}
+
+.imgAboutUs {
+  background-image: url(../images/skull-and-crossbones-1518822_640.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.imgAboutUs p {
+  margin: 0px;
+  font-size: 40vh;
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(46, 182, 18, 0.5);
+}
+
+.lien {
+  color: #2eb612 !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.lien:hover {
+  color: #3b5466 !important;
+}
+
+.page {
+  background-color: rgba(46, 182, 18, 0.5);
+  margin: 0px;
+  width: 100%;
+}
+.page .center {
+  text-align: center;
+}
+.page .center i {
+  color: #2eb612;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.page .pad {
+  padding: 0px !important;
+}
+
+.stats {
+  background-image: url(../images/matrix-1799661_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+.stats h2 {
+  color: white;
+  margin-top: 20px;
+}
+
+#news h2 {
+  margin-top: 20px;
+}
+#news img {
+  width: 250px;
+  border: 1px solid #2eb612;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 10px #2eb612;
+}
+#news .picto {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.avis {
+  background-color: rgba(46, 182, 18, 0.5);
+  margin: 0px;
+}
+.avis h2 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.avis img {
+  width: 100%;
+}
+.avis i {
+  color: #2eb612;
+}
+.avis .ital {
+  color: #3b5466;
+  font-style: italic;
+}
+.avis p {
+  padding: 0 10px 0 10px;
+}
+
+footer {
+  background-image: url(../images/sillouette-702178_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+footer p {
+  color: white;
+  font-size: 1rem;
+  padding: 0 10px 0 10px;
+}
+footer .titreFooter {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+footer .trait {
+  display: inline-block;
+  border-bottom: 1px solid #2eb612;
+  width: 96%;
+  margin-bottom: 10px;
+}
+footer .trait2 {
+  display: inline-block;
+  border-bottom: 1px solid #2eb612;
+  width: 50px;
+}
+footer .trait3 {
+  display: inline-block;
+  border-bottom: 1px solid #2eb612;
+  width: 100%;
+}
+footer i {
+  color: #2eb612;
+  padding-left: 5px;
+}
+footer input {
+  border: none;
+  padding: 6px;
+}
+footer .btnEnvoye {
+  background-color: #2eb612;
+  border: none;
+  color: white;
+  padding: 4px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  align-items: center;
+}
+footer .btnEnvoye:hover {
+  transition: 1s;
+  background-color: white;
+  border: none;
+  color: #2eb612;
+  padding: 4px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  align-items: center;
+}
+footer .blog {
+  margin-top: 20px;
+}
+footer .insta {
+  padding: 0px !important;
+  margin: 0px;
+}
+footer .image {
+  width: 100%;
+}
+footer .imageKR {
+  width: 100% !important;
+}
+footer .copyright {
+  font-size: 75%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #slider {
+    display: none;
+  }
+
+  header p {
+    font-size: 7pt;
+  }
+}
+@media screen and (max-width: 991px) {
+  #slider {
+    display: none;
+  }
+
+  #footer {
+    padding: 0px 10px 0px 10px;
+  }
+  #footer .image {
+    width: 150px;
+  }
+  #footer .imageKR {
+    width: 100px;
+  }
+  #footer .KR {
+    width: 302px;
+  }
+}
+@media screen and (max-width: 896px) {
+  #slider {
+    display: none;
+  }
+
+  #news img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #slider {
+    display: none;
+  }
+
+  header .tel {
+    text-align: left;
+  }
+  header .colorTop {
+    padding: 0px 10px 0px 10px;
+  }
+
+  #news {
+    text-align: center;
+  }
+  #news img {
+    width: 250px;
+  }
+
+  .textAboutUs {
+    padding-left: 10px;
+  }
+
+  .page {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .avis {
+    padding: 0px 10px 0px 10px;
+  }
+  .avis img {
+    width: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
